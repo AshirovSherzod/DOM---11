@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - 11</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <main>
+        <div class="head container">
+            <button class="add__btn">Add Cards</button>
+        </div>
+        <div class="cards container">
+        </div>
+        <div class="modal">
+            <form action="" class="form container">
+                <div class="forms">
+                    <div class="form__name forms__col">
+                        <label for="name">Enter the product name</label>
+                        <input id="name" class="form__name__input" type="text" placeholder="product name" required>
+                    </div>
+                    <div class="form_quantity forms__col">
+                        <label for="quantity">Enter the product quantity</label>
+                        <input id="quantity" class="form__quantity__input" type="text" placeholder="product quantity" required>
+                    </div>
+                    <div class="form__unit forms__col">
+                        <label for="brand">Enter the product unit</label>
+                        <select name="" id="form__unit">
+                            <option value="">kg</option>
+                            <option value="">gr</option>
+                            <option value="">Dona</option>
+                        </select>
+                    </div>
+                    <div class="form__price forms__col">
+                        <label for="price">Enter the product price</label>
+                        <input id="price" class="form__price__input" type="number" placeholder="product price" required>
+                    </div>
+                    <div class="form__url forms__col">
+                        <label for="url">Enter product image url</label>
+                        <input id="url" class="form__url__input" type="text"  placeholder="product image url" required>
+                    </div>
+                </div>
+                <button type="submit" class="fsubmit__btn add__btn">Create user</button>
+                <button type="button" class="cancel__btn add__btn">Cancel</button>
+            </form>
+        </div>
+    </main>
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>
